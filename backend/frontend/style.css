@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: linear-gradient(135deg, #1e1b8f, #4338ca);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.sub {
+  opacity: 0.7;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+/* BUTTON */
+.primary-btn {
+  background: #22c55e;
+  border: none;
+  padding: 12px 25px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 8px;
+}
+
+/* SEARCH */
+.search-box {
+  margin-top: 30px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+/* RESULTS */
+.container {
+  padding: 40px;
+}
+
+.ticket-card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.claim-btn {
+  background: #4338ca;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+}
