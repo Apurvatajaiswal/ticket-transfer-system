@@ -8,6 +8,7 @@ function getParams() {
   };
 }
 
+const API = "https://postchart-backend.onrender.com";
 function loadResults() {
   let { source, destination } = getParams();
 
