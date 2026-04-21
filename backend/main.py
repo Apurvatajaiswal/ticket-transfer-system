@@ -95,6 +95,8 @@ def delete_ticket(ticket_id: int, db: Session = Depends(get_db)):
 
     db.delete(ticket)
     db.commit()
+    
+    return {"message": "Ticket claimed"}
 
 
 
